@@ -1,12 +1,13 @@
 :root {
   font-size: 36px;
-  --wheat: rgb(245,222,179);
-  --gold: rgb(255,215,0);
+  --wheat: rgb(245, 222, 179);
+  --gold: rgb(255, 215, 0);
   background-image: url(./images/2681677.jpg);
 }
 
-h1, footer{
-  color: wheat
+h1,
+footer {
+  color: wheat;
 }
 
 .wrapper {
@@ -19,7 +20,7 @@ h1, footer{
 .one {
   grid-column: 1/5;
   grid-row: 1;
-  color: var(--wheat)
+  color: var(--wheat);
 }
 .two {
   display: flex;
@@ -56,21 +57,21 @@ h1, footer{
 .six {
   grid-column: 2/4;
   grid-row: 4/10;
-  color: gold
+  color: gold;
 }
 
-input[type=text] {
+input[type="text"] {
   height: 40px;
-  width: 25%
+  width: 25%;
 }
 
 a {
-  text-decoration: none; 
-  color: red
+  text-decoration: none;
+  color: red;
 }
 
 a:link {
-  color:red;
+  color: red;
 }
 
 a:hover {
