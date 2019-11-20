@@ -54,7 +54,7 @@ footer {
   grid-row: 2;
   background-color: var(--wheat);
 }
-.six {
+.six, .form {
   display: flex;
   align-items: center;
   justify-content: center;

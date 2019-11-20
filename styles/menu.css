@@ -7,7 +7,7 @@
 
 h1,
 footer {
-  color: wheat;
+  color: var(--wheat);
 }
 
 .wrapper {
@@ -28,7 +28,7 @@ footer {
   justify-content: center;
   grid-column: 1;
   grid-row: 2;
-  background-color: gold;
+  background-color: var(--gold);
 }
 .three {
   display: flex;
@@ -36,7 +36,7 @@ footer {
   justify-content: center;
   grid-column: 2;
   grid-row: 2;
-  background-color: wheat;
+  background-color: var(--wheat);
 }
 .four {
   display: flex;
@@ -44,7 +44,7 @@ footer {
   justify-content: center;
   grid-column: 3;
   grid-row: 2;
-  background-color: gold;
+  background-color: var(--gold);
 }
 .five {
   display: flex;
@@ -52,47 +52,47 @@ footer {
   justify-content: center;
   grid-column: 4;
   grid-row: 2;
-  background-color: wheat;
+  background-color: var(--wheat);
 }
 .six {
   grid-column: 1/2;
   grid-row: 4;
-  color: gold
+  color: var(--gold)
 }
 .seven {
   grid-column: 2/4;
   grid-row: 4;
-  color: gold;
+  color: var(--gold)
 }
 .eight {
   grid-column: 1/2;
   grid-row: 5;
-  color: gold;
+  color: var(--gold)
 }
 .nine {
   grid-column: 2/4;
   grid-row: 5;
-  color: gold;
+  color: var(--gold)
 }
 .ten {
   grid-column: 1/2;
   grid-row: 6;
-  color: gold;
+  color: var(--gold)
 }
 .eleven {
   grid-column: 2/4;
   grid-row: 6;
-  color: gold;
+  color: var(--gold)
 }
 .twelve {
   grid-column: 1/2;
   grid-row: 7;
-  color: gold;
+  color: var(--gold)
 }
 .thirteen {
   grid-column: 2/4;
   grid-row: 7;
-  color: gold;
+  color: var(--gold)
 }
 
 a {
