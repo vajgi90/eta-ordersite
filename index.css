@@ -1,10 +1,11 @@
 :root {
   font-size: 36px;
-  /*szín és betűméret változók deklarációi*/
+  --wheat: rgb(245,222,179);
+  --gold: rgb(255,215,0);
   background-image: url(./images/2681677.jpg);
 }
 h1, footer{
-  color: wheat
+  color: var(--wheat)
 }
 
 .wrapper {
@@ -27,7 +28,7 @@ h1, footer{
 .three {
   grid-column: 2;
   grid-row: 2;
-  background-color: wheat;
+  background-color: var(--wheat);
 }
 .four {
   grid-column: 3;
@@ -44,9 +45,10 @@ h1, footer{
   grid-row: 3/6;
 }
 .seven {
+  margin: 0 auto;
   grid-column: 3/5;
   grid-row: 3/6;
-  color: gold;
+  color: var(--gold);
 }
 .eight {
   grid-column: 1;
@@ -63,3 +65,17 @@ h1, footer{
   grid-row: 6/9;
   background-color: brown;
 }
+
+a {
+  text-decoration: none; 
+  color: red
+}
+
+a:link {
+  color:red;
+}
+
+a:hover {
+  color: var(--wheat);
+}
+
