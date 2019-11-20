@@ -4,6 +4,8 @@
   --gold: rgb(255,215,0);
   background-image: url(./images/2681677.jpg);
 }
+
+
 h1, footer{
   color: var(--wheat)
 }

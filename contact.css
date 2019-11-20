@@ -1,8 +1,10 @@
 :root {
   font-size: 36px;
-  /*szín és betűméret változók deklarációi*/
+  --wheat: rgb(245,222,179);
+  --gold: rgb(255,215,0);
   background-image: url(./images/2681677.jpg);
 }
+
 h1, footer{
   color: wheat
 }
@@ -53,4 +55,17 @@ h1, footer{
   grid-column: 2/4;
   grid-row: 10;
   color: gold;
+}
+
+a {
+  text-decoration: none; 
+  color: red
+}
+
+a:link {
+  color:red;
+}
+
+a:hover {
+  color: var(--wheat);
 }
