@@ -24,25 +24,37 @@ h1, footer{
 }
 
 .two {
+  display: flex;
+  justify-content: center;
   grid-column: 1;
   grid-row: 2;
+<<<<<<< HEAD
   background-color: blue;
   
+=======
+  background-color: var(--gold);
+>>>>>>> e1948a51b16ce355b4b50022c338251f31dee589
 }
 .three {
+  display: flex;
+  justify-content: center;
   grid-column: 2;
   grid-row: 2;
   background-color: var(--wheat);
 }
 .four {
+  display: flex;
+  justify-content: center;
   grid-column: 3;
   grid-row: 2;
-  background-color: yellow;
+  background-color: var(--gold);
 }
 .five {
+  display: flex;
+  justify-content: center;
   grid-column: 4;
   grid-row: 2;
-  background-color: red;
+  background-color: var(--wheat);
 }
 .six {
   grid-column: 1/3;
@@ -80,6 +92,6 @@ a:link {
 }
 
 a:hover {
-  color: var(--wheat);
+  color: blue;
 }
 
