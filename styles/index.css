@@ -28,12 +28,7 @@ h1, footer{
   justify-content: center;
   grid-column: 1;
   grid-row: 2;
-<<<<<<< HEAD
-  background-color: blue;
-  
-=======
   background-color: var(--gold);
->>>>>>> e1948a51b16ce355b4b50022c338251f31dee589
 }
 .three {
   display: flex;
@@ -66,20 +61,16 @@ h1, footer{
   grid-row: 3/6;
   color: var(--gold);
 }
-.eight {
-  grid-column: 1;
-  grid-row: 6;
-  background-color: hotpink;
-}
+
 .nine {
   grid-column: 1/3;
   grid-row: 6/9;
-  background-color: purple
+  font-size: 24px;
+  color: var(--wheat)
 }
 .ten {
   grid-column: 3/5;
   grid-row: 6/9;
-  background-color: brown;
 }
 
 a {
@@ -92,6 +83,6 @@ a:link {
 }
 
 a:hover {
-  color: blue;
+  color: greenyellow;
 }
 
