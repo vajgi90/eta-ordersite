@@ -42,18 +42,43 @@ h1, footer{
   background-color: wheat;
 }
 .six {
-  grid-column: 2/4;
-  grid-row: 4/6;
+  grid-column: 1/2;
+  grid-row: 4;
   color: gold
 }
 .seven {
   grid-column: 2/4;
-  grid-row: 7/9;
+  grid-row: 4;
   color: gold;
 }
 .eight {
+  grid-column: 1/2;
+  grid-row: 5;
+  color: gold;
+}
+.nine {
   grid-column: 2/4;
-  grid-row: 10;
+  grid-row: 5;
+  color: gold;
+}
+.ten {
+  grid-column: 1/2;
+  grid-row: 6;
+  color: gold;
+}
+.eleven {
+  grid-column: 2/4;
+  grid-row: 6;
+  color: gold;
+}
+.twelve {
+  grid-column: 1/2;
+  grid-row: 7;
+  color: gold;
+}
+.thirteen {
+  grid-column: 2/4;
+  grid-row: 7;
   color: gold;
 }
 
