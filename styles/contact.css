@@ -24,7 +24,7 @@ h1, footer{
 .two {
   grid-column: 1;
   grid-row: 2;
-  background-color: blue;
+  background-color: gold;
 }
 .three {
   grid-column: 2;
@@ -34,12 +34,12 @@ h1, footer{
 .four {
   grid-column: 3;
   grid-row: 2;
-  background-color: yellow;
+  background-color: gold;
 }
 .five {
   grid-column: 4;
   grid-row: 2;
-  background-color: red;
+  background-color: wheat;
 }
 .six {
   grid-column: 2/4;

@@ -1,0 +1,71 @@
+:root {
+  font-size: 36px;
+  --wheat: rgb(245,222,179);
+  --gold: rgb(255,215,0);
+  background-image: url(./images/2681677.jpg);
+}
+
+h1, footer{
+  color: wheat
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 25% 25% 25% 25%);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+  grid-column: 1/5;
+  grid-row: 1;
+  color: var(--wheat)
+}
+.two {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: gold;
+}
+.three {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: wheat;
+}
+.four {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: gold;
+}
+.five {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: wheat;
+}
+.six {
+  grid-column: 2/4;
+  grid-row: 4/6;
+  color: gold
+}
+.seven {
+  grid-column: 2/4;
+  grid-row: 7/9;
+  color: gold;
+}
+.eight {
+  grid-column: 2/4;
+  grid-row: 10;
+  color: gold;
+}
+
+a {
+  text-decoration: none; 
+  color: red
+}
+
+a:link {
+  color:red;
+}
+
+a:hover {
+  color: var(--wheat);
+}
