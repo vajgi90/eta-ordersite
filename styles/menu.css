@@ -23,38 +23,75 @@ footer {
   color: var(--wheat);
 }
 .two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-column: 1;
   grid-row: 2;
   background-color: gold;
 }
 .three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-column: 2;
   grid-row: 2;
   background-color: wheat;
 }
 .four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-column: 3;
   grid-row: 2;
   background-color: gold;
 }
 .five {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-column: 4;
   grid-row: 2;
   background-color: wheat;
 }
 .six {
-  grid-column: 2/4;
-  grid-row: 4/6;
-  color: gold;
+  grid-column: 1/2;
+  grid-row: 4;
+  color: gold
 }
 .seven {
   grid-column: 2/4;
-  grid-row: 7/9;
+  grid-row: 4;
   color: gold;
 }
 .eight {
+  grid-column: 1/2;
+  grid-row: 5;
+  color: gold;
+}
+.nine {
   grid-column: 2/4;
-  grid-row: 10;
+  grid-row: 5;
+  color: gold;
+}
+.ten {
+  grid-column: 1/2;
+  grid-row: 6;
+  color: gold;
+}
+.eleven {
+  grid-column: 2/4;
+  grid-row: 6;
+  color: gold;
+}
+.twelve {
+  grid-column: 1/2;
+  grid-row: 7;
+  color: gold;
+}
+.thirteen {
+  grid-column: 2/4;
+  grid-row: 7;
   color: gold;
 }
 

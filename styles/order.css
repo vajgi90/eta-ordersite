@@ -55,9 +55,12 @@ footer {
   background-color: var(--wheat);
 }
 .six {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-column: 2/4;
   grid-row: 4/10;
-  color: gold;
+  color: black;
 }
 
 input[type="text"] {
