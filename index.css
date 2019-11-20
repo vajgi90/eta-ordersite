@@ -3,7 +3,7 @@
   /*szín és betűméret változók deklarációi*/
   background-image: url(./images/2681677.jpg);
 }
-h1{
+h1, footer{
   color: wheat
 }
 
@@ -46,7 +46,7 @@ h1{
 .seven {
   grid-column: 3/5;
   grid-row: 3/6;
-  background-color: turquoise;
+  color: gold;
 }
 .eight {
   grid-column: 1;
@@ -62,9 +62,4 @@ h1{
   grid-column: 4/5;
   grid-row: 6/9;
   background-color: brown;
-}
-.eleven {
-  grid-column: 1/5;
-  grid-row: 9;
-  background-color: turquoise;
 }
