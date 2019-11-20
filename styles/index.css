@@ -25,6 +25,7 @@ h1, footer{
 
 .two {
   display: flex;
+  align-items: center;
   justify-content: center;
   grid-column: 1;
   grid-row: 2;
@@ -32,6 +33,7 @@ h1, footer{
 }
 .three {
   display: flex;
+  align-items: center;
   justify-content: center;
   grid-column: 2;
   grid-row: 2;
@@ -39,6 +41,7 @@ h1, footer{
 }
 .four {
   display: flex;
+  align-items: center;
   justify-content: center;
   grid-column: 3;
   grid-row: 2;
@@ -46,6 +49,7 @@ h1, footer{
 }
 .five {
   display: flex;
+  align-items: center;
   justify-content: center;
   grid-column: 4;
   grid-row: 2;
