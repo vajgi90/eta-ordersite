@@ -43,18 +43,8 @@ h1, footer{
 }
 .six {
   grid-column: 2/4;
-  grid-row: 4/6;
+  grid-row: 4/10;
   color: gold
-}
-.seven {
-  grid-column: 2/4;
-  grid-row: 7/9;
-  color: gold;
-}
-.eight {
-  grid-column: 2/4;
-  grid-row: 10;
-  color: gold;
 }
 
 a {
