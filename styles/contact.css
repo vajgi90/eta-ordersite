@@ -3,6 +3,7 @@
   --wheat: rgb(245, 222, 179);
   --gold: rgb(255, 215, 0);
   background-image: url(./images/2681677.jpg);
+  font-family: 'Alata', sans-serif;
 }
 
 @media only screen and (max-width: 900px) {

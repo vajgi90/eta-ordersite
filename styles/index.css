@@ -5,6 +5,7 @@
   background-image: url(./images/2681677.jpg);
   max-width: 100%;
   overflow-x: hidden;
+  font-family: 'Alata', sans-serif;
 }
 
 @media only screen and (max-width: 900px) {
