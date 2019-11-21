@@ -17,9 +17,14 @@
   }
 }
 
-h1,
+h1 {
+  color: var(--wheat);
+}
+
 footer {
-  color: wheat;
+  color: var(--wheat);
+  font-size: 24px;
+  text-align: center;
 }
 
 .wrapper {
@@ -66,17 +71,14 @@ footer {
   grid-row: 2;
   background-color: var(--wheat);
 }
-.six, .form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.six {
   grid-column: 2/4;
   grid-row: 4/10;
-  color: black;
+  color: var(--gold);
 }
 
-input[type="text"] {
-  height: 40px;
+input[type="text"], input[type="number"] {
+  height: 30px;
   width: 25%;
 }
 
