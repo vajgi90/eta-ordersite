@@ -17,13 +17,23 @@
 
   <body>
     <div class="wrapper">
-      <div class="one">Tommy and Johnny Restaurant: Szeged legjobb pizzája és hamburgere egy helyen!<br/> </div>
+      <div class="one">Tommy and Johnny Restaurant: Szeged legjobb pizzája és hamburgere egy helyen!<br /> </div>
       <div class="two"> <a href="./index.html">Főoldal</a></div>
       <div class="three"> <a href="./menu.html">Menü</a></div>
       <div class="four"> <a href="./order.html">Rendelés</a></div>
       <div class="five"> <a href="./contact.html">Kapcsolat</a></div>
       <div class="six">
         <form class="form">
+          <label>
+            Étel:
+            <select name="fizetési mód" id="000" class="select">
+              <option value="" selected="selected">Kérlek válassz</option>
+              <option value="pp">Pepperoni Pizza</option>
+              <option value="csp">Csicskagyász Pizza</option>
+              <option value="mb">Mekis Burger</option>
+              <option value="pb">P.I.M.P Burger</option>
+            </select>
+          </label> <br />
           Vezetéknév:
           <input type="text" id="one" name="Vezetéknév" maxlength="40" placeholder="Vezetéknév"><br />
           Keresztnév:
@@ -37,7 +47,7 @@
           Szállítási cím:
           <input type="text" id="006" name="E-mail" maxlength="35" placeholder="Utca, házszám"><br />
           <label>
-            Fizetési Mód: <br/>
+            Fizetési Mód:
             <select name="fizetési mód" id="007" class="select">
               <option value="" selected="selected">Kérlek válassz</option>
               <option value="kp">Készpénzben a futárnál</option>
@@ -45,7 +55,7 @@
               <option value="ob">Online bankkártyával</option>
             </select>
           </label> <br />
-          Egyéb fontos információ: <br />
+          Egyéb fontos információ: <br/>
           <textarea name="Egyéb" cols="30" rows="5">
           </textarea><br />
           <button>Rendelés</button>
