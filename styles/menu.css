@@ -47,6 +47,7 @@ footer {
   grid-column: 1;
   grid-row: 2;
   background-color: var(--gold);
+  opacity: 0.75;
 }
 .three {
   display: flex;
@@ -55,6 +56,7 @@ footer {
   grid-column: 2;
   grid-row: 2;
   background-color: var(--wheat);
+  opacity: 0.75;
 }
 .four {
   display: flex;
@@ -63,6 +65,7 @@ footer {
   grid-column: 3;
   grid-row: 2;
   background-color: var(--gold);
+  opacity: 0.75;
 }
 .five {
   display: flex;
@@ -71,6 +74,7 @@ footer {
   grid-column: 4;
   grid-row: 2;
   background-color: var(--wheat);
+  opacity: 0.75;
 }
 .six {
   grid-column: 1/2;
@@ -133,5 +137,5 @@ a:link {
 }
 
 a:hover {
-  color: greenyellow;
+  color: black;
 }
